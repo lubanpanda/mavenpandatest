@@ -1,12 +1,14 @@
-package test;
+package com.panda;
 import org.dom4j.io.SAXReader;
 import java.io.File;
 import org.dom4j.Element;
+import org.junit.Before;
+
 import java.util.Iterator;
 import java.util.List;;
 
 public class jiexml {
-
+	@Before
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		File file=new File("/Users/panda/Desktop/test.xml");
@@ -19,6 +21,7 @@ public class jiexml {
 			// TODO: handle exception
 			e.printStackTrace();
 		}
+		assert doc != null;
 		Element root=doc.getRootElement();
 		Iterator it=root.elementIterator();
 		while(it.hasNext()) {
