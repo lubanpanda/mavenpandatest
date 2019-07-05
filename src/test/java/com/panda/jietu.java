@@ -15,7 +15,7 @@ public class jietu {
 
 
     private final String CHROMEPATH = "/Users/panda/Downloads/chromedriver";
-    private String URL = "https://www.smslit.top/2018/06/27/spider-practice-page-screenshot/";
+    private String URL = "https://www.baidu.com";
     private final String PthotPath = "/Users/panda/Downloads/";
     private WebDriver driver = null;
 
@@ -50,7 +50,7 @@ public class jietu {
     public void elementPhoto() {
         //元素截图
         this.login();
-        File eleFile = driver.findElement(By.id("page")).getScreenshotAs(OutputType.FILE);
+        File eleFile = driver.findElement(By.id("su")).getScreenshotAs(OutputType.FILE);
         //File destination=new File("Image.png");
         try {
             org.apache.commons.io.FileUtils.copyFile(eleFile, new File("/Users/panda/Downloads/112233.png"));
@@ -86,8 +86,8 @@ public class jietu {
     public static void main(String[] args) {
         jietu a = new jietu();
         //a.Allscreen();
-//        a.elementPhoto();
-        a.LongShot();
+        a.elementPhoto();
+//        a.LongShot();
 
 
     }
