@@ -11,6 +11,7 @@ import javax.imageio.ImageIO;
 
 /**
  * @use 利用Java代码给图片加水印
+ * 方便查看
  */
 public class biaoji {
 
