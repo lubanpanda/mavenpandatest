@@ -1,4 +1,4 @@
-package panda;
+package com.panda;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 

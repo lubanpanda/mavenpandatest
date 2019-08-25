@@ -1,4 +1,4 @@
-package panda;
+package com.panda;
 
 /**
  * @author panda   84305510@qq.com

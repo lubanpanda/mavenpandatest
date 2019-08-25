@@ -1,4 +1,4 @@
-package panda;
+package com.panda;
 
 import java.awt.Color;
 import java.awt.Font;

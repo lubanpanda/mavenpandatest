@@ -1,4 +1,4 @@
-package panda;
+package com.panda;
 
 import io.appium.java_client.AppiumDriver;
 import org.junit.After;

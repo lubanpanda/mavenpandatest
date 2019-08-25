@@ -1,4 +1,4 @@
-package panda;
+package com.panda;
 import org.dom4j.io.SAXReader;
 import java.io.File;
 import org.dom4j.Element;
