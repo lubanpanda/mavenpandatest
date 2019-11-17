@@ -5,22 +5,13 @@ package com.panda;
  * @date 2019-07-01 14:26
  */
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Image;
+import javax.imageio.ImageIO;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import javax.imageio.ImageIO;
 
-import jxl.Workbook;
-import jxl.write.WritableImage;
-import jxl.write.WritableSheet;
-import jxl.write.WritableWorkbook;
-import jxl.write.WriteException;
-import com.sun.image.codec.jpeg.JPEGCodec;
-import com.sun.image.codec.jpeg.JPEGImageEncoder;
 
 
 public class kuang {

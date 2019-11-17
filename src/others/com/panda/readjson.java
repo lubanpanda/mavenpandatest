@@ -4,19 +4,22 @@ package com.panda;
  * @date 2019-06-23 11:03
  */
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
+import java.io.UnsupportedEncodingException;
 
 public class readjson {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnsupportedEncodingException {
 
-        JsonObject object = new JsonObject();
-        object.addProperty("cat", "it");
-
-        JsonArray array = new JsonArray();
-
-        JsonObject lan1 = new JsonObject();
-        lan1.addProperty("id", 1);
-        lan1.addProperty("name", "java");
+//        JsonObject object = new JsonObject();
+//        object.addProperty("cat", "it");
+//
+//        JsonArray array = new JsonArray();
+//
+//        JsonObject lan1 = new JsonObject();
+//        lan1.addProperty("id", 1);
+//        lan1.addProperty("name", "java");
+        String a = "你好hello";
+        int b = a.getBytes("GBK").length;
+        int c = String.valueOf(255).getBytes("GBK").length;
+        System.out.println(b + "<<<>>>" + c);
     }
 }
