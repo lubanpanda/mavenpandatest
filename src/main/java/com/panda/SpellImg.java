@@ -1,16 +1,16 @@
 package com.panda;
-import java.awt.image.BufferedImage;
-import java.io.File;
 
 import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.File;
 
 /**
  * @author 图片拼接
  */
 public class SpellImg {
-    public static void main(String[] args) {
-        try {
-            // 读取第一张图片
+	public static void main(String[] args) {
+		try {
+			// 读取第一张图片
             File fileOne = new File("/Users/panda/Downloads/户主.jpg");
             BufferedImage ImageOne = ImageIO.read(fileOne);
             int width = ImageOne.getWidth();// 图片宽度

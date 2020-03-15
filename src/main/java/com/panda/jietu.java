@@ -1,10 +1,11 @@
 package com.panda;
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
 import java.awt.Rectangle;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;

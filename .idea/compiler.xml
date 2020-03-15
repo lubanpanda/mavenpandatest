@@ -11,8 +11,5 @@
         <module name="maven-pandatest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="mavenpandatest" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>

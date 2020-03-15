@@ -1,13 +1,10 @@
 package com.panda;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics2D;
-import java.awt.Image;
+import javax.imageio.ImageIO;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
-import javax.imageio.ImageIO;
 
 /**
  * @use 利用Java代码给图片加水印

@@ -1,11 +1,12 @@
 package com.panda;
-import org.dom4j.io.SAXReader;
-import java.io.File;
+
 import org.dom4j.Element;
+import org.dom4j.io.SAXReader;
 import org.junit.Before;
 
+import java.io.File;
 import java.util.Iterator;
-import java.util.List;;
+import java.util.List;
 
 public class jiexml {
     @Before
